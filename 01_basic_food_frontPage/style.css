@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+    padding: 50px 45px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.menu ul li {
+    margin: 0px 25px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.right_button_group {
+    display: flex;
+}
+
+.right_button_group >div {
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.bag_icon {
+    height: 25px;
+}
+
+.contact_btn {
+    background-color: #39db4a;
+    padding: 5px 25px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+    top: -10px;
+}
+
+.contact_btn >div {
+    margin: 0px 10px;
+}
+
+/*? hero section */
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img_column img {
+    width: 700px;
+}
+
+.hero_title {
+    font-family: "Inter", sans-serif;
+    font-size: 55px;
+    width: 510px;
+    font-weight: 800;
+}
+
+.green_text {
+    color: #39db4a;
+}
+
+.hero_text {
+    font-family: "Inter", sans-serif;
+    font-size: 26px;
+    width: 520px;
+    padding: 25px 0px;
+}
+
+.hero_btn_group {
+    width: 520px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.hero_btn_1 {
+    background-color: #39db4a;
+    color: white;
+    font-family: "Inter", sans-serif;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 8px 0 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hero_btn_2 {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    padding: 8px 0 15px;
+    cursor: pointer;
+}
+
+.hero_play_btn img {
+    cursor: pointer;
+    width: 100px;
+}
+.hero_play_btn {
+    position: relative;
+    top: -15px;
+}
